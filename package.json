@@ -1,0 +1,21 @@
+{
+  "name": "babel-wrap",
+  "version": "1.0.0",
+  "description": "You can add `Babel` to the `plugins` section of `.putout.json` with `babel/` prefix.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "devDependencies": {
+    "babel-plugin-angularjs-annotate": "https://github.com/putoutjs/babel-plugin-angularjs-annotate",
+    "babel-plugin-transform-inline-consecutive-adds": "^0.4.3",
+    "@babel/plugin-codemod-object-assign-to-object-spread": "^7.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
